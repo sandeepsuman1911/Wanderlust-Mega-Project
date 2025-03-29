@@ -74,8 +74,8 @@ pipeline {
                 stage("Backend env setup"){
                     steps {
                         script{
-                            dir("Automations"){
-                                sh "bash updatebackendnew.sh"
+                           /* dir("Automations"){
+                                sh "bash updatebackendnew.sh" */
                             }
                         }
                     }
@@ -84,8 +84,8 @@ pipeline {
                 stage("Frontend env setup"){
                     steps {
                         script{
-                            dir("Automations"){
-                                sh "bash updatefrontendnew.sh"
+                          /*  dir("Automations"){
+                                sh "bash updatefrontendnew.sh" */
                             }
                         }
                     }
